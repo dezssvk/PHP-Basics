@@ -62,20 +62,5 @@
             </tr>
         <?php $kolom++; endwhile; ?>
         </table>
-    
-    <table class="tabel-if">
-        <?php $kolom=1; while($kolom <=5) : ?>
-            <?php if($kolom % 2 == 1) : ?>
-                <tr class="warna-baris">
-            <?php else : ?>
-                <tr>
-            <?php endif; ?>
-                <?php $baris=1; while($baris <=5) : ?>
-                    <td><?= "$kolom,$baris" ?></td>
-                <?php $baris++; endwhile; ?>
-            </tr>
-        <?php $kolom++; endwhile; ?>
-    </table>
-    
 </body>
 </html>
