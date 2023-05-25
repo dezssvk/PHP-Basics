@@ -1,0 +1,50 @@
+.tabel1 {
+  background-color: #a62b2c;
+  border: 1px solid;
+  color: bisque;
+  padding: 10px;
+  border-spacing: 0;
+}
+
+.tabel1 th {
+  background-color: black;
+  padding: 10px;
+  border-spacing: 0;
+}
+
+.tabel1 td {
+  border: 1px solid;
+  color: bisque;
+  padding: 10px;
+}
+
+.tabel2 {
+  background-color: grey;
+  border-spacing: 0px;
+  padding: 10px;
+}
+
+.tabel2 tr td {
+  border: 1px solid;
+  color: #a62b2c;
+  padding: 10px;
+}
+
+.tabel2 tr:hover {
+  background-color: coral;
+}
+
+.tabel-if {
+  background-color: gray;
+  padding: 10px;
+}
+
+.tabel-if td {
+  padding: 10px;
+  border: 1px solid;
+  color: #a62b2c;
+}
+
+.warna-baris {
+  background-color: white;
+}
